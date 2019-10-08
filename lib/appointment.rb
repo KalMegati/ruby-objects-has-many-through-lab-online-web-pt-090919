@@ -4,6 +4,10 @@ class Appointment
   
   @@all = []
   
-  self.
+  def self.all
+    @@all
+  end
+  
+  
   
 end
