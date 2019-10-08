@@ -1,5 +1,5 @@
 class Appointment
   
-  attr_reader 
+  attr_reader :name, 
   
 end
