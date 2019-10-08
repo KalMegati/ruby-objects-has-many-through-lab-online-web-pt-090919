@@ -8,10 +8,8 @@ class Patient
     @@all
   end
   
-  def initialize(date, patient, doctor)
-    @date = date
-    @patient = patient
-    @doctor = doctor
+  def initialize(name)
+    @name = name
     @@all << self
   end
   
