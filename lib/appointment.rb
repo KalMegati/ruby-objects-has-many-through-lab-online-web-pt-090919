@@ -1,5 +1,5 @@
 class Appointment
   
-  attr_reader :name, 
+  attr_reader :date, :patient, :doctor
   
 end
