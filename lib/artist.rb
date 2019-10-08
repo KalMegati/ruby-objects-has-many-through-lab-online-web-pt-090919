@@ -14,7 +14,11 @@ class Artist
   end
   
   def new_song(name, genre)
-    Song.new(name,self,genre)
+    Song.new(name, self, genre)
+  end
+  
+  def songs()
+    Songs.all.select { |tune| tune.artist == self }
   end
   
 end
